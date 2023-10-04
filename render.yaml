@@ -3,5 +3,6 @@ services:
     name: cors-anywhere
     env: node
     plan: free
-    region: frankfurt   
+    region: frankfurt
+    buildCommand: yarn install
     startCommand: node server.js
