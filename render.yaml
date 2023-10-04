@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: cors-anywhere
+    env: node
+    plan: free
+    region: frankfurt   
+    startCommand: node server.js
